@@ -1,1 +1,10 @@
-zezanje
+docker run ime_kontejnera -> pokrece image u kontejneru
+docker ps -> lista aktivne kontejnere
+docker ps -a -> lista sve kontejnere ukljucujuci i nedavno ugasene
+docker run -d ime_kontejnera -> detached mode
+docker run -it ime_kontejnera -> otvara terminal?
+docker run -p port1:port2 -> mapiranje porta1 na port2 koji se nalazi u kontejneru
+docker pull -> samo preuzima image na host masinu
+docker push -> jasno
+docker build -> builduje image iz Dockerfile
+docker inspect ime_kontejnera -> cita karakteristike kontejnera
